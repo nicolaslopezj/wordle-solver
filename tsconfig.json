@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "module": "commonjs",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "lib": ["es2020"],
+    "declaration": true,
+
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // required for typed models
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}
